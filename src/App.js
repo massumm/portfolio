@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet-async';
 import Header from './components/Header';
 import About from './components/About';
 import Footer from './components/Footer';
+import SmokeyCursor from './components/SmokeCursor';
 import { SkeletonGrid } from './components/ui/skeleton';
 import './index.css';
 
@@ -17,6 +18,7 @@ const Contact = React.lazy(() => import('./components/Contact'));
 function App() {
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <SmokeyCursor />
       <Helmet>
         <title>Masum Al Reza - Mobile App Developer</title>
         <meta
