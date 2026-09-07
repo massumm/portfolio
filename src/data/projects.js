@@ -20,7 +20,7 @@ export const projects = [
       'Used Google Maps SDK, Sentry for monitoring, Google Analytics, Firebase App Distribution, and unit testing.',
     ],
     links: {
-      code: 'https://github.com/massumm/marathon-tracker',
+      code: null,
       demo: 'http://runmate.club/',
     },
     tags: [
@@ -44,7 +44,7 @@ export const projects = [
       'Tech stack: Flutter, Dart, TFLite, Google Sheets API, googleapis_auth, SharedPreferences, GetX.',
     ],
     links: {
-      code: 'https://github.com/massumm/office_attendence',
+      code: null,
       demo: null,
     },
     tags: [
