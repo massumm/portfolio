@@ -94,6 +94,16 @@ const Projects = () => {
               />
 
               <div className="relative z-10">
+                {proj.images && proj.images.length > 0 && (
+                  <div className="-mx-6 -mt-6 mb-4 overflow-hidden rounded-t-xl border-b border-border/50">
+                    <img
+                      src={proj.images[0].src}
+                      alt={proj.images[0].alt}
+                      loading="lazy"
+                      className="h-40 w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                )}
                 <div className="flex items-start justify-between gap-4 mb-4">
                   <div>
                     <motion.h3 
@@ -119,7 +129,7 @@ const Projects = () => {
                     </Dialog.Trigger>
                     <Dialog.Portal>
                       <Dialog.Overlay className="fixed inset-0 bg-black/60 backdrop-blur-sm" />
-                      <Dialog.Content className="fixed left-1/2 top-1/2 w-[90vw] max-w-2xl -translate-x-1/2 -translate-y-1/2 rounded-xl border border-border/50 bg-card/95 backdrop-blur-md p-6 shadow-2xl focus:outline-none">
+                      <Dialog.Content className="fixed left-1/2 top-1/2 w-[90vw] max-w-2xl max-h-[85vh] overflow-y-auto -translate-x-1/2 -translate-y-1/2 rounded-xl border border-border/50 bg-card/95 backdrop-blur-md p-6 shadow-2xl focus:outline-none">
                         <Dialog.Title className="text-lg font-semibold bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
                           {proj.title}
                         </Dialog.Title>
@@ -138,6 +148,26 @@ const Projects = () => {
                             </motion.li>
                           ))}
                         </ul>
+                        {proj.images && proj.images.length > 0 && (
+                          <div className="mt-5 grid grid-cols-2 sm:grid-cols-3 gap-2">
+                            {proj.images.map((img, i) => (
+                              <a
+                                key={i}
+                                href={img.src}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block overflow-hidden rounded-md border border-border/50"
+                              >
+                                <img
+                                  src={img.src}
+                                  alt={img.alt}
+                                  loading="lazy"
+                                  className="h-24 w-full object-cover transition-transform duration-300 hover:scale-105"
+                                />
+                              </a>
+                            ))}
+                          </div>
+                        )}
                         <div className="mt-6 flex gap-3">
                           {proj.links.code && (
                             <motion.a 
