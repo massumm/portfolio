@@ -4,6 +4,29 @@ import mouMeeting from '../Assets/runmate-mou-meeting.jpg';
 
 export const projects = [
   {
+    title: 'reliable_background_location (Flutter Plugin)',
+    period: 'Sep 2026',
+    bullets: [
+      'Published an open-source Flutter plugin for Android background location that keeps recording through Doze, screen-off, battery saver, and the app\u2019s own process being killed.',
+      'Buffers fixes natively while no Dart isolate is alive, so a track survives process death, and restores interrupted session state after an OS-initiated service restart.',
+      'Returns typed failures for the several unrelated reasons Android refuses a foreground service start, instead of reporting success while nothing is being recorded.',
+      'Written in Dart and Kotlin with a custom foreground service, a partial wakelock, and a PendingIntent-based receiver that runs without a Flutter engine.',
+    ],
+    links: {
+      code: 'https://github.com/massumm/reliable_background_location',
+      demo: 'https://pub.dev/packages/reliable_background_location',
+    },
+    tags: [
+      'Dart',
+      'Kotlin',
+      'Flutter Plugin',
+      'Android Foreground Service',
+      'Play Services Location',
+      'Open Source',
+      'Unit Testing',
+    ],
+  },
+  {
     title: 'RunMate Club (Marathon Tracker)',
     period: 'Jan 2026 - Present',
     images: [
