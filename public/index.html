@@ -3,16 +3,35 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- Browsers prefer the PNG links over favicon.ico where both exist;
+         the .ico stays for older ones and for /favicon.ico auto-requests. -->
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
     <meta
       name="description"
-      content=" Masum Reza  - Flutter Developer Portfolio"
+      content="Masum Al Reza — Full Stack Mobile App Developer. Flutter, Native Android and Laravel, with five years of production apps on Google Play and the App Store."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title> Masum Reza | Flutter Develper</title>
+
+    <!-- Link previews on LinkedIn, Slack, WhatsApp and X. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Masum Al Reza | Full Stack Mobile App Developer" />
+    <meta
+      property="og:description"
+      content="Flutter, Native Android and Laravel. Five years of production apps on Google Play and the App Store."
+    />
+    <meta property="og:url" content="https://masumrezaa.vercel.app/" />
+    <meta property="og:image" content="https://masumrezaa.vercel.app/logo512.png" />
+    <meta name="twitter:card" content="summary" />
+
+    <title>Masum Al Reza | Full Stack Mobile App Developer</title>
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   </head>
