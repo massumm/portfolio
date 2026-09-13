@@ -7,9 +7,9 @@ export const projects = [
     title: 'reliable_background_location (Flutter Plugin)',
     period: 'Sep 2026',
     bullets: [
-      'Published an open-source Flutter plugin for Android background location that keeps recording through Doze, screen-off, battery saver, and the app\u2019s own process being killed.',
-      'Buffers fixes natively while no Dart isolate is alive, so a track survives process death, and restores interrupted session state after an OS-initiated service restart.',
-      'Returns typed failures for the several unrelated reasons Android refuses a foreground service start, instead of reporting success while nothing is being recorded.',
+      'Open-source Flutter plugin for Android background location that keeps recording through Doze, screen-off, battery saver and process death.',
+      'Buffers fixes natively while no Dart isolate is alive, and restores session state after an OS-initiated service restart.',
+      'Returns typed failures for the reasons Android refuses a foreground service start, instead of reporting success while nothing records.',
       'Written in Dart and Kotlin with a custom foreground service, a partial wakelock, and a PendingIntent-based receiver that runs without a Flutter engine.',
     ],
     links: {
@@ -35,11 +35,11 @@ export const projects = [
       { src: mouMeeting, alt: 'RunMate and Prokriti O Jibon Foundation team at the MoU signing meeting' },
     ],
     bullets: [
-      'Lead Flutter Developer on RunMate Club, a marathon platform where runners join events, track their runs live, and review their running performance.',
-      'Built live tracking, Free Run, Group Run, leaderboards, and personal performance history, plus an admin panel that lets organizers manage events.',
+      'Lead Flutter Developer on RunMate Club, a marathon platform where runners join events, track runs live and review their performance.',
+      'Built live tracking, Free Run, Group Run, leaderboards and performance history, plus an organizer admin panel for managing events.',
       'Launched with PANTONIX TIGER RUN DHAKA 2026, organized by Prokriti O Jibon Foundation and Channel i — the first app-based live marathon tracking in Bangladesh.',
       'Loads KML-based routes and renders real-time progress on Google Maps, with run data stored in Firebase and live location sharing between runners.',
-      'Background location tracking and offline run storage keep sessions recording with the screen off or without network, syncing to Firebase on reconnect.',
+      'Background tracking and offline storage keep sessions recording with the screen off or without network, syncing to Firebase on reconnect.',
       'Used Google Maps SDK, Sentry for monitoring, Google Analytics, Firebase App Distribution, and unit testing.',
     ],
     links: {
