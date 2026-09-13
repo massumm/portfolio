@@ -2,6 +2,7 @@ export const experience = [
   {
     title: "Software Engineer (Flutter & Android)",
     company: "Xorgeek Ltd.",
+    url: "https://xorgeek.com",
     period: "October 2021 – Present",
     bullets: [
       "Led a 6-member team delivering 12+ projects on schedule, cutting delivery delays by 30% and lifting client satisfaction by 15%.",
@@ -15,6 +16,7 @@ export const experience = [
   {
     title: "Senior Flutter Developer (Contract, Remote)",
     company: "Icon Train Smarter Ltd. — London, UK",
+    url: "https://www.icontraining.app/",
     period: "December 2025 – February 2026",
     bullets: [
       "Built and refined screens for Icon Training, an AI personal-training app, remotely with a London-based team.",
