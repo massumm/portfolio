@@ -11,5 +11,15 @@ export const experience = [
       "Integrated third-party and cloud services including Google Maps SDK, BLE, Firebase Cloud Messaging, Stripe payments, OCR, and LLM APIs to ship AI-assisted product features.",
       "Established code review, Git branching, and release practices for the team, and used Sentry and Google Analytics to monitor crashes and user behaviour in production.",
     ],
+  },
+  {
+    title: "Senior Flutter Developer (Contract, Remote)",
+    company: "Icon Train Smarter Ltd. — London, UK",
+    period: "December 2025 – February 2026",
+    bullets: [
+      "Built and refined screens for Icon Training, an AI personal-training app, working remotely from Dhaka with a London-based team.",
+      "Integrated Google Maps SDK for run tracking, and resolved UI and layout problems across several existing screens.",
+      "Delivered against Jira tickets on a weekly cycle, with daily review of progress and priorities with the project manager.",
+    ],
   }
 ];
