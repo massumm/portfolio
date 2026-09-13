@@ -54,8 +54,8 @@ const Header = () => {
             <li><a className="hover:text-primary transition-colors" href="#contact" onClick={() => scrollToSection('contact')}>Contact</a></li>
             <li>
               <a 
-                href="https://drive.google.com/file/d/1y5aiLw7ghDfdSDicl3L9n5bV2my_zM1M/view?usp=sharing" 
-                download="Resume.pdf" 
+                href="/Masum-Al-Reza-Resume.pdf" 
+                download="Masum-Al-Reza-Resume.pdf" 
                 className="inline-flex h-9 items-center rounded-md border border-border px-3 text-sm hover:bg-accent hover:text-accent-foreground transition-colors"
               >
                 Resume
@@ -84,8 +84,8 @@ const Header = () => {
               <li><a className="block hover:text-primary" href="#contact" onClick={() => scrollToSection('contact')}>Contact</a></li>
               <li>
                 <a 
-                  href="https://drive.google.com/file/d/1y5aiLw7ghDfdSDicl3L9n5bV2my_zM1M/view?usp=sharing" 
-                  download="Resume.pdf" 
+                  href="/Masum-Al-Reza-Resume.pdf" 
+                  download="Masum-Al-Reza-Resume.pdf" 
                   className="inline-flex h-9 items-center rounded-md border border-border px-3 text-sm hover:bg-accent hover:text-accent-foreground transition-colors"
                 >
                   Resume
